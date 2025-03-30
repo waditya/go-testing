@@ -23,4 +23,5 @@ func TestCheckEven(testingPointer *testing.T) {
 	if expectedOutput2 != result2 {
 		testingPointer.Errorf("For : %v, Expected Value: %v, Got : %v", input2, expectedOutput2, result2)
 	}
+
 }
